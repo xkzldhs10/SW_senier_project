@@ -1,0 +1,128 @@
+
+#title1{ 
+	text-align: center;
+	margin-top:120px;	
+}
+
+h3{
+	margin-top:30px;
+	margin-bottom:20px;
+	color:#00FF80;
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#membertype{
+	text-align:center;
+	width:500px; 
+	height:50px;   
+	border-radius: 12px; 
+	border-color:#00FF80;
+	border:1 solid black;
+	text-align:center;
+	font-size: 25px;
+	align-items: center;
+	margin: 0 auto;
+    display: flex;
+  	justify-content: center;
+}
+
+form{
+  display:inline;
+ }
+ 
+.usrinput{
+	text-align:center;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.notice{
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+#password, #repassword, #deptnumber, #pnumber, #username, #email{
+	margin-top: 20px;
+	width:500px; 
+	height:50px;   
+	border-radius: 12px; 
+	border-color:#00FF80;
+	border:1 solid black;
+	text-align:center;
+	font-size: 25px;
+	outline:2px; 
+	solid: #00FF80;
+	color:#00FF80;
+}
+
+#memberid{
+	margin-top: 20px;
+	width:350px; 
+	height:50px;   
+	border-radius: 12px; 
+	border-color:#00FF80;
+	border:1 solid black;
+	text-align:center;
+	font-size: 25px;
+	outline:2px; 
+	solid: #00FF80;
+	color:#00FF80;
+}
+#check{
+	margin-top: 20px;
+	width:143px; 
+	height:50px;   
+	border-radius: 12px; 
+	border-color:#00FF80;
+	border:0 solid black;
+	text-align:center;
+	font-size: 25px;
+    font-weight: bold;
+	outline:2px; 
+	solid: #00FF80;
+	color:white;
+    background-color:#00FF80;
+}
+#checkbtn{
+    margin-left: 5px;
+}
+
+#signupbtn{
+	text-align:center;
+}
+#button1 
+{	
+	background-color: #00FF80; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	font-weight: 800;
+	width:500px; 
+	height:60px;
+}
+#button2 
+{ 
+	margin-top:20px;
+    background-color: #00FF80; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	font-weight: 800;
+	width:500px; 
+	height:60px;
+}

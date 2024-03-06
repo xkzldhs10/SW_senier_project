@@ -1,0 +1,110 @@
+@charset "UTF-8";
+ table {
+ 	margin-left: auto; 
+ 	margin-right: auto;
+   border-collapse: separate;
+   border-spacing: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+ }
+
+ td {
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   border: 1px solid black;
+   cursor: pointer;
+   background-color: rgb(255, 255, 255); /* 테이블 배경색 변경 */
+   color: rgb(0, 0, 0); /* 테이블 숫자 색상 변경 */
+ }
+
+ td.selected {
+   background-color: gray;
+   color: white;
+ }
+
+ h1 {
+   text-align: center;
+   margin-top: 50px;
+ }
+
+.table-container {
+  width: 650px; /* Adjust the width to your desired size */
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 10px;
+
+
+  background-color:rgb(245, 243, 243);
+}
+
+ 
+/* Add margin between tables */
+.table-locker table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 750px;
+}
+
+/* Style locker labels */
+.locker-label {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px; /* Adjust width as needed */
+}
+
+/* Rest of the CSS as previously defined */
+.table-locker td {
+  width: 60px;
+  height: 60px;
+  /* ... (rest of your styles) */
+}
+
+ 
+ .table-time
+ {
+ 	margin-top:10px;
+ 	background-color:rgb(255, 255, 255);
+ }
+ .selected-seat-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.selected-seat, .selected-locker, .selected-time {
+  font-size: 14px; /* Set the font size to 14px */
+  background-color: white; /* Set the background color to white */
+  padding: 15px;
+  text-align: center;
+  width: 130px; /* Set a fixed width for all three boxes */
+  height: 80px; /* Set a fixed height for all three boxes */
+}
+
+.selected-seat, .selected-locker, .selected-time {
+  margin-right: 10px; /* Add right margin for spacing */
+}
+
+.selected-seat span, .selected-locker span, .selected-time span {
+  font-weight: bold;
+}
+
+ 
+ 
+ 
+ .selected-locker{
+   text-align: center;
+   font-size: 24px;
+   margin: 0 auto;
+   margin-top:10px;
+   background-color: rgb(215, 215, 215);
+   color: rgb(0, 0, 0);
+   padding: 10px;
+   border-radius: 15px;
+ }

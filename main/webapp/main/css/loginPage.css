@@ -1,0 +1,96 @@
+
+
+#login {
+	 width: 350px;
+    height: 55px;
+    padding: 0 20px 0 50px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+		
+#password {
+	width: 350px;
+    height: 55px;
+    padding: 0 20px 0 50px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+		   
+		   
+#button {
+
+    width: 350px;
+    height: 55px;
+    background-color: #34B680;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+#login:focus {
+    border-color: #34B680;
+}
+
+#password:focus {
+    border-color: #34B680;
+}
+
+
+		 
+#loginButton {
+	margin-top: 25px; 
+	text-align: center;
+}
+
+#loginForm {
+	margin-top:30px;
+}
+
+#passwordForm {
+	margin-top:10px;
+}
+
+#logincheck {
+	margin-top:20px; 
+	font-size: 20px; 
+	color:rgb(0, 128, 128); 
+	font-weight: bold;
+}
+			 
+#logintheme {
+	text-align: center; 
+	margin-top:150px; 
+	margin-bottom:255px;
+}
+			 
+
+#logincheckbox {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	border-color:#0872FD;
+}
+
+
+#linkButton {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+#linkButton a {
+    text-decoration: none;
+    color: #727272;
+}
+
+#linkButton a:hover {
+    color: #0872FD; /* Change color on hover */
+}

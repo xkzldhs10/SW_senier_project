@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+#title1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#tableLayout {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table.myInfo {
+    width: 600px;
+    height: 10px; /* Changed height to 10px, but you can adjust it accordingly */
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table.myInfo thead {
+  
+    background: #34B680;
+}
+
+table.myInfo thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+
+table.myInfo tbody th,
+table.myInfo tbody td {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+}
+
+table.myInfo tbody th:first-child,
+table.myInfo tbody td:first-child {
+    border-left: none;
+}
+
+table.myInfo tbody th:last-child,
+table.myInfo tbody td:last-child {
+    border-right: none;
+}
+
+#allButton {
+    text-align: center;
+}
+
+#membutton1,
+#membutton2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+#button1,
+#button2 {
+    width: 200px;
+    height: 55px;
+    background-color: #34B680;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 100px;
+}

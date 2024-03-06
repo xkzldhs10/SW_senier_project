@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+  background-color: #F1F3F4;
+  margin: 0;
+}
+
+#title1 {
+  margin-top: 150px; /* Increased margin-top to 120px */
+  text-align: center;
+}
+
+#title1 h1 {
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px; /* Margin-top increased to 20px */
+  margin-bottom: 30px;
+}
+
+#title1 section {
+  background-color: #FFF;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+#title1 span {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: bold; /* Added for bold text */
+}
+
+#payment-button {
+  background-color: #34B680;
+   width: 300px;
+ height: 50px;
+  border: none;
+  color: #fff;
+  padding: 15px 40px; /* Adjusted padding for a longer button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; /* Adjusted font-size to make it slightly smaller */
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 700;
+}
+
